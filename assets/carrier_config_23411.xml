@@ -2,5 +2,6 @@
 <carrier_config_list>
 <carrier_config>
 <boolean name="prefer_2g_bool" value="false" />
+<boolean name="voicemail_notification_persistent_bool" value="true" />
 </carrier_config>
 </carrier_config_list>
