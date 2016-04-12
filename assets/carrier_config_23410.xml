@@ -4,5 +4,6 @@
 <int name="smsToMmsTextThreshold" value="10" />
 <boolean name="prefer_2g_bool" value="false" />
 <boolean name="voicemail_notification_persistent_bool" value="true" />
+<boolean name="enabledNotifyWapMMSC" value="true" />
 </carrier_config>
 </carrier_config_list>
