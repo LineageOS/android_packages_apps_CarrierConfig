@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+<carrier_config>
+<string-array name="gsm_nonroaming_networks_string_array" num="3">
+    <item value="26001" />
+    <item value="26002" />
+    <item value="26003" />
+</string-array>
+</carrier_config>
+</carrier_config_list>

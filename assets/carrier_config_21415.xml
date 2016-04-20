@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+<carrier_config>
+<string-array name="gsm_nonroaming_networks_string_array" num="20">
+    <item value="21401" />
+    <item value="21402" />
+    <item value="21403" />
+    <item value="21404" />
+    <item value="21405" />
+    <item value="21406" />
+    <item value="21407" />
+    <item value="21408" />
+    <item value="21409" />
+    <item value="21410" />
+    <item value="21411" />
+    <item value="21412" />
+    <item value="21413" />
+    <item value="21414" />
+    <item value="21416" />
+    <item value="21417" />
+    <item value="21418" />
+    <item value="21419" />
+    <item value="21420" />
+    <item value="21421" />
+</string-array>
+</carrier_config>
+</carrier_config_list>

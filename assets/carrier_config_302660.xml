@@ -7,5 +7,12 @@
 <int name="maxSubjectLength" value="80" />
 <int name="maxMessageSize" value="1048576" />
 <int name="maxImageWidth" value="2592" />
+<string-array name="gsm_nonroaming_networks_string_array" num="5">
+    <item value="302220" />
+    <item value="302370" />
+    <item value="302610" />
+    <item value="302720" />
+    <item value="302780" />
+</string-array>
 </carrier_config>
 </carrier_config_list>

@@ -7,5 +7,12 @@
 <int name="maxImageWidth" value="2592" />
 <boolean name="enableSMSDeliveryReports" value="false" />
 <boolean name="csp_enabled_bool" value="true" />
+<string-array name="cdma_roaming_networks_string_array" num="5">
+    <item value="310110" />
+    <item value="310140" />
+    <item value="310400" />
+    <item value="310470" />
+    <item value="311170" />
+</string-array>
 </carrier_config>
 </carrier_config_list>

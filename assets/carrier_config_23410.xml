@@ -5,5 +5,15 @@
 <boolean name="prefer_2g_bool" value="false" />
 <boolean name="voicemail_notification_persistent_bool" value="true" />
 <boolean name="enabledNotifyWapMMSC" value="true" />
+<string-array name="gsm_nonroaming_networks_string_array" num="8">
+    <item value="23420" />
+    <item value="23426" />
+    <item value="23430" />
+    <item value="23431" />
+    <item value="23432" />
+    <item value="23433" />
+    <item value="23434" />
+    <item value="23486" />
+</string-array>
 </carrier_config>
 </carrier_config_list>
