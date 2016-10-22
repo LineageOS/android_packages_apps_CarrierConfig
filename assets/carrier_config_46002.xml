@@ -29,5 +29,6 @@
 <carrier_config_list>
     <carrier_config>
         <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="hide_network_settings_bool" value="true" />
     </carrier_config>
 </carrier_config_list>
