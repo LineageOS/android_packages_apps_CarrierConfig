@@ -30,5 +30,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <carrier_config_list>
     <carrier_config>
         <int name="volte_replacement_rat_int" value="6" />
+        <boolean name="show_apn_setting_cdma_bool" value="true" />
     </carrier_config>
 </carrier_config_list>
