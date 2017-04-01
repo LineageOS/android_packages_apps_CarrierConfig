@@ -4,6 +4,11 @@
 <int name="maxImageHeight" value="1944" />
 <int name="maxMessageSize" value="614400" />
 <int name="maxImageWidth" value="2592" />
+<string-array name="gsm_nonroaming_networks_string_array" num="3">
+<item value="26203" />
+<item value="26205" />
+<item value="26277" />
+</string-array>
 <boolean name="enabledNotifyWapMMSC" value="true" />
 </carrier_config>
 </carrier_config_list>
