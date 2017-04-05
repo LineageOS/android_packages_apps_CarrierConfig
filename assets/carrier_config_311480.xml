@@ -2,6 +2,7 @@
 <carrier_config_list>
     <carrier_config>
         <boolean name="allow_hold_in_ims_call" value="false" />
+        <boolean name="mdn_is_additional_voicemail_number_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="support_downgrade_vt_to_audio_bool" value="false" />
         <boolean name="notify_handover_video_from_wifi_to_lte_bool" value="true" />
@@ -44,12 +45,13 @@
         <boolean name="video_calls_can_be_hd_audio" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="carrier_promote_wfc_on_call_fail_bool" value="true" />
-        <string-array name="ims_reasoninfo_mapping_string_array" num="8">
+        <string-array name="ims_reasoninfo_mapping_string_array" num="9">
             <item value="332|simultaneous call limit has already been reached|1403" />
             <item value="332|Forbidden: Simultaneous Call Limit Has Already Been Reached|1403" />
             <item value="338|another device sent all devices busy response|1404" />
             <item value="501|call completion elsewhere|1014" />
             <item value="501|call has been pulled by another device|1016" />
+            <item value="510|call has been pulled by another device|1016" />
             <item value="501|another device sent all devices busy response|1404" />
             <item value="510|another device sent all devices busy response|1404" />
             <item value="1014|call has been pulled by another device|1016" />
@@ -62,13 +64,27 @@
             <item value="WIRELESS CALLER" />
             <item value="UNKNOWN NAME" />
         </string-array>
-        <string-array name="read_only_apn_fields_string_array" num="6">
+        <string-array name="read_only_apn_fields_string_array" num="20">
+            <item value="name" />
+            <item value="proxy" />
+            <item value="port" />
+            <item value="user" />
+            <item value="password" />
+            <item value="server" />
+            <item value="mmsc" />
+            <item value="mmsproxy" />
+            <item value="mmsport" />
+            <item value="mcc" />
+            <item value="mnc" />
+            <item value="authtype" />
             <item value="type" />
             <item value="protocol" />
             <item value="roaming_protocol" />
             <item value="bearer" />
             <item value="bearer_bitmask" />
             <item value="carrier_enabled" />
+            <item value="mvno_type" />
+            <item value="mvno_match_data" />
         </string-array>
         <string-array name="carrier_metered_apn_types_strings" num="3">
             <item value="default" />
@@ -79,6 +95,11 @@
             <item value="default" />
             <item value="dun" />
             <item value="supl" />
+        </string-array>
+        <boolean name="support_3gpp_call_forwarding_while_roaming_bool" value="false" />
+        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
+            <item value="*71" />
+            <item value="*72" />
         </string-array>
     </carrier_config>
 </carrier_config_list>
