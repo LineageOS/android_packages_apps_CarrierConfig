@@ -20,6 +20,7 @@
         <boolean name="enableMultipartSMS" value="false" />
         <boolean name="show_apn_setting_cdma_bool" value="true" />
         <boolean name="support_swap_after_merge_bool" value="false" />
+        <string name="carrier_eri_file_name_string">eri_311580.xml</string>
     </carrier_config>
     <carrier_config imsi="^3115801.*">
         <boolean name="carrier_name_override_bool" value="true" />
