@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <carrier_config_list>
     <carrier_config>
-        <boolean name="display_hd_audio_property_bool" value="false" />
         <string-array name="non_roaming_operator_string_array" num="1">
-            <item value="23210" />
+            <item value="20416" />
         </string-array>
     </carrier_config>
 </carrier_config_list>
