@@ -2,7 +2,7 @@
 <carrier_config_list>
     <carrier_config>
         <boolean name="dtmf_type_enabled_bool" value="true" />
-        <boolean name="use_otasp_for_provisioning_bool" value="true" />
+        <boolean name="use_otasp_for_provisioning_bool" value="false" />
         <boolean name="enabledTransID" value="true" />
         <boolean name="allowAttachAudio" value="true" />
         <int name="recipientLimit" value="20" />
