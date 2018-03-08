@@ -2,5 +2,8 @@
 <carrier_config_list>
     <carrier_config>
         <boolean name="display_hd_audio_property_bool" value="false" />
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="23203" />
+        </string-array>
     </carrier_config>
 </carrier_config_list>
