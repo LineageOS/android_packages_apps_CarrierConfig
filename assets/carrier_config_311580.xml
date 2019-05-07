@@ -19,6 +19,7 @@
         <boolean name="enabledNotifyWapMMSC" value="true" />
         <boolean name="enableMultipartSMS" value="false" />
         <boolean name="show_apn_setting_cdma_bool" value="true" />
+        <string name="carrier_eri_file_name_string">eri_311220.xml</string>
         <boolean name="support_swap_after_merge_bool" value="false" />
         <string name="carrier_eri_file_name_string">eri_311580.xml</string>
     </carrier_config>
