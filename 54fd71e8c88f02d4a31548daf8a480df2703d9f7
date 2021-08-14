@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b201ec27_1c13375d",
+        "filename": "assets/carrier_config_carrierid_2_EE.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-08-14T13:29:15Z",
+      "side": 1,
+      "message": "missing newline at end",
+      "revId": "54fd71e8c88f02d4a31548daf8a480df2703d9f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
